@@ -99,15 +99,18 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'The sum is:',
-            ),
-            Text(
               '$n1',
               style: Theme.of(context).textTheme.headline3,
             ),
             Text(
+              '+',
+            ),
+            Text(
               '$n2',
               style: Theme.of(context).textTheme.headline3,
+            ),
+            Text(
+              '=',
             ),
             Text(
               '$sum',
